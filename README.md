@@ -1,6 +1,6 @@
 
 # Dual Arm Robotic System Repository
-This repository is dedicated to receiving imitation learning outputs for action and utilizing MoveIt! for planning and executing these actions on a dual-arm robotic system.
+This repository is dedicated to receiving action from Imitation Learning and utilizing MoveIt! for planning and executing these actions on a dual Ur5e robotic system.
 
 ## Deployment Process
 
@@ -13,6 +13,7 @@ This repository is dedicated to receiving imitation learning outputs for action 
         https://github.com/Denghaoyuan123/Bimanual_Universal_Robots_ur5e_ROS_Driver
 
       - realsense-ros/
+        https://github.com/IntelRealSense/realsense-ros
 
       - Bimanual_ur5e_joystick_control
         https://github.com/Denghaoyuan123/Bimanual_ur5e_joystick_control
