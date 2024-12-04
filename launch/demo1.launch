@@ -1,0 +1,12 @@
+<launch>
+    <!-- 定义任务名称参数，默认值为"default_task" -->
+    <arg name="task_name" default="pick_two" />
+
+    <!-- 设置命名空间 -->
+    <group ns="robot1">
+        <!-- 启动您的脚本，并传递任务名称参数 -->
+        <node name="demo1" pkg="control_robot" type="demo1.py" output="screen">
+            <param name="task_name" value="$(arg task_name)" />
+        </node>
+    </group>
+</launch>
