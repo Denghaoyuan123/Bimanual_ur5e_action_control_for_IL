@@ -6,7 +6,7 @@ This repository is dedicated to receiving action from Imitation Learning and uti
 
 1. **Enter the dual_arm_ros directory:**
    ```bash
-   cd dual_arm_ros
+   cd demo_ws/
    ```
    - src/
       - Bimanual_Universal_Robots_ur5e_ROS_Driver/
